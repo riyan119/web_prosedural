@@ -1,0 +1,134 @@
+body{
+	font-family:'Candara','Calibri',sans-serif;
+	font-size: 14px;
+	background-image: url('gambar/riyan.jpg');
+}
+#canvas{
+	width: 1025px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px;
+	background-color: white;
+}
+#header{
+	font-size: 20px;
+}
+#header img{
+	margin-bottom: -6px;
+	width: 1025px;
+}
+#menu{
+background-color: #0066ff;
+font-family: franklin gothic medium, segoe ui;
+}
+#menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li.utama{
+display: inline-table;
+}
+#menu ul li.hover{
+	background-color: #0033cc;
+}
+#menu ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0 10px;
+	color: #fff;
+}
+.utama ul{
+	display: none;
+	position: absolute;
+	z-index: 2;
+}
+.utama:hover ul{
+	display: block;
+
+}
+.utama ul li{
+	display: block;
+	background-color: #6cf;
+	width: 140px;
+}
+
+#tampilan{
+	margin: 5px;
+}
+#isi {
+	min-height: 400px;
+	width: 740px;
+	padding: 20px;
+	background-image: url("cover.JPEG");
+	background-attachment: fixed;
+}
+#footer{
+	font-family: franklin gothic medium, segoe ui;
+	text-align: center;
+	padding: 20px;
+	background-color: #ccc;
+}
+
+.right{
+	float: right;
+}
+#login{
+	width: 200px;
+	text-align: center;
+	background-image: url("../gambar/contoh1.jpg");
+}
+#login img{
+	width: 200px;
+	height: 250px;
+	text-align: center;
+	float: left;
+}
+#belicash{
+	margin-top: 10px;
+}
+table{box-shadow:0px 0px 5px #aaa;} /*sedikit bayangan yang soft*/
+table th{
+    padding:10px; 
+    font-weight:bold; 
+    background:#33B4E4; 
+    color:#fff; 
+    text-transform:uppercase;
+}
+table td{
+    padding:10px 5px;
+}
+.btn{
+	padding: 5px;
+	border: 0;
+	background-color: #339966;
+	border-radius: 5px;
+	color: #fff;
+}
+.btn:hover {
+	background-color: #336666;
+	cursor: pointer;
+}
+
+.btnedit{
+	padding: 5px;
+	border: 0;
+	background-color: #339966;
+	border-radius: 5px;
+	color: #fff;
+}
+.btnedit:hover {
+	background-color: blue;
+	cursor: pointer;
+}
+.btnhapus{
+	padding: 5px;
+	border: 0;
+	background-color: #339966;
+	border-radius: 5px;
+	color: #fff;
+}
+.btnhapus:hover {
+	background-color: red;
+	cursor: pointer;
+}

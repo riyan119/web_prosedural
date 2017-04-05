@@ -1,0 +1,80 @@
+body{
+	font-family: arial;
+	font-size: 14px;
+}
+
+#canvas {
+	width: 960px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px;
+}
+
+#header {
+	font-size: 20px;
+}
+
+#header img{
+	margin-bottom: -6px;
+	
+}
+
+#menu {
+	background-color: #0066ff;
+	font-family: franklin gothic medium, segoe ui;
+}
+
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li.utama{
+	display: inline-table;
+}
+
+#menu ul li.hover{
+	background-color: #0033cc;
+}
+
+#menu ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0 10px;
+	color: #fff;
+}
+
+.utama ul{
+	display: none;
+	position: absolute;
+	z-index: 2;
+}
+
+.utama:hover ul{
+	display: block;
+}
+
+.utama ul li{
+	display: block;
+	background-color: #6cf;
+	width: 140px;
+}
+
+.right{
+	float: right;
+}
+
+#isi{
+	min-height: 400px;
+	padding: 20px;
+	background-image: url("img/bg-isi.jpg");
+	background-attachment: fixed;
+}
+
+#footer{
+	font-family: franklin gothic medium, segoe ui;
+	text-align: center;
+	padding: 20px;
+	background: #ccc;
+}
